@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url("header.jpeg");
+
+}
+
+.container {
+    max-width: 1275px;
+    margin: auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 63px;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.hero-block {
+    background-color: #0A0F23E8;
+}
+
+.container_hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    background: #0A0F23E8;
+}
+
+.container_about {
+    padding: 70px 0 153px;
+}
+
+.about__title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video {
+    background: #31518F;
+}
+
+.container_video {
+    padding: 70px 0 134px;
+}
+
+.video__title {
+    color: #E4E4E4;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.video__video {
+    width: 100%;
+    height: 611px;
+    border: 44px solid #3e3e3e;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    padding: 70px 0 70px;
+    background: #31518F;
+}
+
+.gallery__title {
+    color: #E4E4E4;
+
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+}
+
+.gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.gallery__item {
+    width: 30%;
+    height: 356px;
+    margin-right: 10px;
+    margin-left: 22px;
+    margin-bottom: 40px;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.footer {
+    background-image: url("header.jpeg");
+
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 52px;
+}
+
+.footer__title {
+    color: #E4E4E4;
+
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__text {
+    color: #FFF;
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%;
+    /* 26.25px */
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+}
+
+.footer__item {
+    margin-right: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer__img {
+    width: 100%;
+    height: 100%;
+}
